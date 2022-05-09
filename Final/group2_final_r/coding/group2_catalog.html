@@ -1,0 +1,453 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>LVCCLD Library Catalog</title>
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<link href="librarywebsite.css" rel="stylesheet" type="text/css">
+<link rel="icon" type="image/png" href="../images/favicon-32x32.png" >
+</head>
+
+<body>
+	<div class="wrap">
+		<div class="header">
+		
+		<div class="logo">
+		<a href="index.html"><img src="images/librarylogowhite.png" width="674" height="190"/></a>
+	</div>
+	<div class="header_right">
+		<p class="language"> <a href="#">English</a> | <a href="#">Español</a> </p>
+		<form class="login_info" action="#.php">
+			<input class="username" type="text" name="username" placeholder="username" required  />
+			<input class="password" type="text" name="password" placeholder="password" required  />
+			<input class="Login" type="submit" name="Login" value="LOGIN"/>
+		</form>
+		<form class="search" action="#.php">
+			<input class="search_web" type="text" name="search" placeholder="Search Website" />
+		</form>
+		
+	</div>
+			
+		</div>
+		
+		<div class="navig">
+		
+		<ul>
+			<li class="nav_link"><a href="group2_catalog.html"><center>Library Catalog</center></a></li>	
+			<li class="nav_link"><a href="#"><center>Find Information</center></a>
+			<ul>
+				<li class="drop_link"><a href="group2_databases.html">Databases A-Z</a></li>
+				<li class="drop_link"><a href="#">Special Collections</a></li>
+				<li class="drop_link"><a href="#">Hot Topics</a></li>
+				<li class="drop_link"><a href="#">Business Decision</a></li>
+				<li class="drop_link"><a href="#">eMedia</a></li>
+				<li class="drop_link"><a href="#">Early Learning Pre-k</a></li>
+				<li class="drop_link"><a href="#">Homework Help k-5</a></li>
+				<li class="drop_link"><a href="#">Homework Help 6-12</a></li>
+			</ul>
+			</li>
+		
+			<li class="nav_link"><a href="#"><center>Cards and Services</center></a>
+			<ul>
+				<li class="drop_link"><a href="#">Reserve a Computer</a></li>
+				<li class="drop_link"><a href="#">Library Card Information</a></li>
+				<li class="drop_link"><a href="#">ADA services</a></li>
+				<li class="drop_link"><a href="#">Wifi</a></li>
+				<li class="drop_link"><a href="#">Rental</a></li>
+				<li class="drop_link"><a href="#">Learn English</a></li>
+				<li class="drop_link"><a href="#">InterLibrary Load (ILL)</a></li>
+			</ul>
+			</li>
+			<li class="nav_link"><a href="group2_eventspg.html"><center>Events & Galleries</center></a></li>
+			<li class="nav_link"><a href="#"><center>About Us</center></a>
+			<ul>
+				<li class="drop_link"><a href="#">Mission Statement</a></li>
+				<li class="drop_link"><a href="#">Administration</a></li>
+				<li class="drop_link"><a href="#">Fast Facts</a></li>
+				<li class="drop_link"><a href="#">Employment</a></li>
+				<li class="drop_link"><a href="#">Volunteer </a></li>
+				<li class="drop_link"><a href="#">Donate</a></li>
+			</ul>
+			</li>
+			
+		</ul>
+			
+		</div>
+	
+	<!--Catalog Body-->
+		<div id="Catalog">
+		<div id="Catalog_Search">
+			<div id="Catalog_Title"><h1>Library Catalog</h1></div>
+			
+			<div id="Searchby"><h2>Search by</h2></div>
+			
+			<div id="radios">
+				<form>
+		<label class="radio"><input type="radio" name="answer"/>Keyword</label>
+		<label class="radio"><input  type="radio" name="answer"/>Title</label>
+		<label class="radio"><input  type="radio" name="answer"/>Author</label>
+		<label class="radio"><input  type="radio" name="answer"/>Subject</label>
+		<label class="radio"><input  type="radio" name="answer"/>Articles</label>
+		<label class="radio"><input  type="radio" name="answer"/>ISBN</label>
+	</form>
+	</div>
+	<div>
+		<form class="search2" action="#.php">
+			<input class="search_Data" type="text" name="search" placeholder="Search Catalog" />
+			<input class="submit2" type="submit" value="SEARCH">
+		</form>
+		</div>
+		</div>
+		
+		<div id="Catalog_Browse">
+			<div id="Browse_Title"><h1>Browse</h1></div>
+				<div id="Browse_Nav">
+					
+					<ul>
+						<li class="current"><a class="current" href="group2_catalog.html"><center>Books</center></a></li>	
+						<li class="browse_main"><a href="#"><center>Movies</center></a></li>
+						<li class="browse_main"><a href="#"><center>Music</center></a></li>
+						<li class="browse_main"><a href="#"><center>Coming Soon</center></a></li>
+						<li class="browse_main"><a href="#"><center>eMedia</center></a></li>	
+					</ul>
+				</div>
+				
+			<div id="categories"><h2 class="subhead">New Arrivals</h2>
+				<div class="bk-carousel-wrap">
+                <div class="bk-carousel">
+                   <div class="bk-carousel-back" style="display: block;"><img src="images/arrow_left.png" width="80" height="80"></div>
+                   <div class="bk-carousel-forward" style="display: block;"><img src="images/arrow_right.png" width="80" height="80"></div>
+
+                   <div class="bk-carousel-items">
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9780399161506&amp;list=NLNF&amp;cnlcode=NLNF&amp;opacoption=&amp;skin=" data-isbn="9780399161506" target="_blank" >
+                              <img src="https://booksite-app.appspot.com/coverart/6168/9780399161506.jpg" alt="The Wanted">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9781538759622&amp;list=NLNF&amp;cnlcode=NLNF&amp;opacoption=&amp;skin=" data-isbn="9781538759622" target="_blank" >
+                              <img src="https://booksite-images.s3.amazonaws.com/cover/9781538759622.jpg" alt="Count to Ten: A Private Novel">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9780399161490&amp;list=NLNF&amp;cnlcode=NLNF&amp;opacoption=&amp;skin=" data-isbn="9780399161490" target="_blank" >
+                              <img src="https://booksite-app.appspot.com/coverart/2441/9780399161490.jpg" alt="The Promise">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9781410499226&amp;list=NLNF&amp;cnlcode=NLNF&amp;opacoption=&amp;skin=" data-isbn="9781410499226" target="_blank" >
+                              <img src="https://booksite-app.appspot.com/coverart/6991/9781410499226.jpg" alt="IQ">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9780062657800&amp;list=NLNF&amp;cnlcode=NLNF&amp;opacoption=&amp;skin=" data-isbn="9780062657800" target="_blank" >
+                              <img src="https://booksite-app.appspot.com/coverart/5897/9780062657800.jpg" alt="A Death in Live Oak: A Jack Swytek Novel">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9781785079276&amp;list=NLNF&amp;cnlcode=NLNF&amp;opacoption=&amp;skin=" data-isbn="9781785079276" target="_blank" >
+                              <img src="https://booksite-app.appspot.com/coverart/5626/9781785079276.jpg" alt="The Lies Within">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9781542046060&amp;list=NLNF&amp;cnlcode=NLNF&amp;opacoption=&amp;skin=" data-isbn="9781542046060" target="_blank" >
+                              <img src="https://booksite-app.appspot.com/coverart/6334/9781542046060.jpg" alt="Her Last Day">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9780399176067&amp;list=NLNF&amp;cnlcode=NLNF&amp;opacoption=&amp;skin=" data-isbn="9780399176067" target="_blank" >
+                              <img src="https://booksite-app.appspot.com/coverart/7002/9780399176067.jpg" alt="Deep Freeze">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9781558618473&amp;list=NLNF&amp;cnlcode=NLNF&amp;opacoption=&amp;skin=" data-isbn="9781558618473">
+                              <img src="https://booksite-app.appspot.com/coverart/5626/9781558618473.jpg" alt="The Man Who Loved His Wife">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9781503935211&amp;list=NLNF&amp;cnlcode=NLNF&amp;opacoption=&amp;skin=" data-isbn="9781503935211">
+                              <img src="https://booksite-app.appspot.com/coverart/5626/9781503935211.jpg" alt="Bad Action">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9780399168918&amp;list=NLNF&amp;cnlcode=NLNF&amp;opacoption=&amp;skin=" data-isbn="9780399168918">
+                              <img src="https://booksite-app.appspot.com/coverart/6334/9780399168918.jpg" alt="Escape Clause">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9786073132398&amp;list=NLNF&amp;cnlcode=NLNF&amp;opacoption=&amp;skin=" data-isbn="9786073132398">
+                              <img src="https://booksite-app.appspot.com/coverart/5626/9786073132398.jpg" alt="Irene">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9780553394856&amp;list=NLNF&amp;cnlcode=NLNF&amp;opacoption=&amp;skin=" data-isbn="9780553394856">
+                              <img src="https://booksite-app.appspot.com/coverart/5626/9780553394856.jpg" alt="Just Fall">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9781616955908&amp;list=NLNF&amp;cnlcode=NLNF&amp;opacoption=&amp;skin=" data-isbn="9781616955908">
+                              <img src="https://booksite-app.appspot.com/coverart/6225/9781616955908.jpg" alt="The Gun">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9781623658816&amp;list=NLNF&amp;cnlcode=NLNF&amp;opacoption=&amp;skin=" data-isbn="9781623658816">
+                              <img src="https://booksite-app.appspot.com/coverart/5626/9781623658816.jpg" alt="The Root of All Evil">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9781480485754&amp;list=NLNF&amp;cnlcode=NLNF&amp;opacoption=&amp;skin=" data-isbn="9781480485754">
+                              <img src="https://booksite-app.appspot.com/coverart/5626/9781480485754.jpg" alt="A Swollen Red Sun">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9781250024862&amp;list=NLNF&amp;cnlcode=NLNF&amp;opacoption=&amp;skin=" data-isbn="9781250024862">
+                              <img src="https://booksite-app.appspot.com/coverart/5626/9781250024862.jpg" alt="Grave Doubts">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9781476734002&amp;list=NLNF&amp;cnlcode=NLNF&amp;opacoption=&amp;skin=" data-isbn="9781476734002">
+                              <img src="https://booksite-app.appspot.com/coverart/6334/9781476734002.gif" alt="The Disappeared">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9781623650025&amp;list=NLNF&amp;cnlcode=NLNF&amp;opacoption=&amp;skin=" data-isbn="9781623650025">
+                              <img src="https://booksite-app.appspot.com/coverart/5626/9781623650025.gif" alt="The Deliverance of Evil">
+                          </a>
+                          </div>
+               		</div>
+
+                                  
+               </div>
+				
+			<h2 class="subhead">Best Sellers & Award Winners</h2>
+				<div class="bk-carousel-wrap">
+                <div class="bk-carousel">
+                   <div class="bk-carousel-back" style="display: block;"><img src="images/arrow_left.png" width="80" height="80"></div>
+                   <div class="bk-carousel-forward" style="display: block;"><img src="images/arrow_right.png" width="80" height="80"></div>
+
+                   <div class="bk-carousel-items">
+                                            
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9780804139021&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9780804139021" target="_blank">
+                              <img src="https://booksite-app.appspot.com/coverart/7456/9780804139021.gif" alt="The Martian">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9780316129084&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9780316129084" target="_blank" >
+                              <img src="https://booksite-app.appspot.com/coverart/7382/9780316129084.gif" alt="Leviathan Wakes">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9780316217767&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9780316217767" target="_blank" >
+                              <img src="https://booksite-app.appspot.com/coverart/7625/9780316217767.gif" alt="Defenders">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9780316212373&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9780316212373" target="_blank" >
+                              <img src="https://booksite-app.appspot.com/coverart/7382/9780316212373.gif" alt="The Hydrogen Sonata">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9780345457738&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9780345457738" target="_blank" >
+                              <img src="https://booksite-images.s3.amazonaws.com/img/ing_img/0309/0345457714.gif" alt="Broken Angels Broken Angels Broken Angels">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9780316262347&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9780316262347">
+                              <img src="https://booksite-app.appspot.com/coverart/7369/9780316262347.jpg" alt="New York 2140">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9780756408695&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9780756408695">
+                              <img src="https://booksite-app.appspot.com/coverart/7560/9780756408695.jpg" alt="This Gulf of Time and Stars">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9780756409586&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9780756409586">
+                              <img src="https://booksite-app.appspot.com/coverart/7382/9780756409586.jpg" alt="An Ancient Peace">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9780743435529&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9780743435529">
+                              <img src="https://booksite-images.s3.amazonaws.com/img/ing_img/1002/9780743435529.gif" alt="Heris Serrano">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9780759563780&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9780759563780">
+                              <img src="https://booksite-images.s3.amazonaws.com/img/ing_img/0811_extra/9780446600989.gif" alt="Prisoner's Hope">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9780759563773&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9780759563773">
+                              <img src="https://booksite-images.s3.amazonaws.com/img/ing_img/0811_extra/9780446600965.gif" alt="Midshipman's Hope">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9780743471756&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9780743471756">
+                              <img src="https://booksite-images.s3.amazonaws.com/img/bowker_img/0507/074347175X.gif" alt="Ring of Fire">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9780743406437&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9780743406437">
+                              <img src="https://booksite-images.s3.amazonaws.com/img/ing_img/0203/0743406435.gif" alt="The Eugenics Wars, Vol. 2">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9780671775223&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9780671775223">
+                              <img src="https://booksite-images.s3.amazonaws.com/coverart/ing_img9911/0671775227.gif" alt="The Valiant">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9780345498083&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9780345498083">
+                              <img src="https://booksite-images.s3.amazonaws.com/img/ing_img/1104/9780345498083.gif" alt="Command Decision">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9781416503965&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9781416503965">
+                              <img src="https://booksite-images.s3.amazonaws.com/img/ing_img/0708/9781416503965.gif" alt="Star Trek Academy Collision Course">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9780316381031&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9780316381031">
+                              <img src="https://booksite-app.appspot.com/coverart/7382/9780316381031.gif" alt="Chimera">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9780316218993&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9780316218993">
+                              <img src="https://booksite-app.appspot.com/coverart/7382/9780316218993.gif" alt="Symbiont">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9780061946288&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9780061946288">
+                              <img src="https://booksite-app.appspot.com/coverart/6334/9780061946288.gif" alt="Moonfall">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9781597802109&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9781597802109">
+                              <img src="https://booksite-app.appspot.com/coverart/6334/9781597802109.gif" alt="Yarn">
+                          </a>
+                                         </div>
+                          </div>
+               		</div>
+
+                                  
+               </div>
+				
+				<h2 class="subhead">Staff Picks</h2>
+				<div class="bk-carousel-wrap">
+                <div class="bk-carousel">
+                   <div class="bk-carousel-back" style="display: block;"><img src="images/arrow_left.png" width="80" height="80"></div>
+                   <div class="bk-carousel-forward" style="display: block;"><img src="images/arrow_right.png" width="80" height="80"></div>
+
+                   <div class="bk-carousel-items">
+                    
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9781101872314&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9781101872314">
+                              <img src="https://booksite-app.appspot.com/coverart/5185/9781101872314.jpg" alt="The O. Henry Prize Stories 2015">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9780020360759&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9780020360759">
+                              <img src="https://booksite-app.appspot.com/coverart/6334/9780020360759.jpg" alt="Heart Songs and Other Stories">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9780393346077&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9780393346077">
+                              <img src="https://booksite-app.appspot.com/coverart/5185/9780393346077.gif" alt="Flash Fiction International: Very Short Stories from Around the World">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9780525590507&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9780525590507">
+                              <img src="https://booksite-app.appspot.com/coverart/6991/9780525590507.jpg" alt="Uncommon Type: Some Stories">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9780976341116&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9780976341116">
+                              <img src="https://booksite-images.s3.amazonaws.com/img/ing_img/0511/0976341115.jpg" alt="The Wild Creatures: Collected Stories of Sam D'Allesandro">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9780062304414&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9780062304414">
+                              <img src="https://booksite-app.appspot.com/coverart/5626/9780062304414.gif" alt="The Scatter Here Is Too Great">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9780684865867&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9780684865867">
+                              <img src="https://booksite-images.s3.amazonaws.com/img/ing_img/0009/0684865866.gif" alt="Guess Again: Short Stories">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9780385352819&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9780385352819">
+                              <img src="https://booksite-app.appspot.com/coverart/6242/9780385352819.gif" alt="In the Country: Stories">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9781101870013&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9781101870013">
+                              <img src="https://booksite-app.appspot.com/coverart/5626/9781101870013.gif" alt="There's Something I Want You to Do: Stories">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9780399170584&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9780399170584">
+                              <img src="https://booksite-app.appspot.com/coverart/6168/9780399170584.gif" alt="The Witch: And Other Tales Re-Told">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9780307592835&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9780307592835">
+                              <img src="https://booksite-images.s3.amazonaws.com/cover/9780307592835.gif" alt="A Visit from the Goon Squad">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9780142437957&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9780142437957">
+                              <img src="https://booksite-app.appspot.com/coverart/5626/9780142437957.jpg" alt="The Dreams in the Witch House: And Other Weird Stories">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9780375415005&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9780375415005">
+                              <img src="https://booksite-app.appspot.com/coverart/5185/9780375415005.gif" alt="Collected Stories">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9780062484154&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9780062484154">
+                              <img src="https://booksite-app.appspot.com/coverart/6465/9780062484154.jpg" alt="Whatever Happened to Interracial Love?: Stories">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9780307268822&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9780307268822">
+                              <img src="https://booksite-app.appspot.com/coverart/5626/9780307268822.gif" alt="The Enchanted Wanderer: And Other Stories">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9786071105622&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9786071105622">
+                              <img src="https://booksite-images.s3.amazonaws.com/img/ing_img/1011/9786071105622.gif" alt="Vlad">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9780679745655&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9780679745655">
+                              <img src="https://booksite-images.s3.amazonaws.com/img/ing_img/0803/9780679745655.gif" alt="Breakfast at Tiffany's: And Three Stories">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9780684804446&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9780684804446">
+                              <img src="https://booksite-images.s3.amazonaws.com/img/ing_img/1002/9780684804446.gif" alt="The Snows of Kilimanjaro and Other Stories">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9780192836311&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9780192836311">
+                              <img src="https://booksite-images.s3.amazonaws.com/img/ing_img/0409/0192836315.gif" alt="Three Tales">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9780060539825&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9780060539825">
+                              <img src="https://booksite-images.s3.amazonaws.com/img/ing_img/0305/0060539828.gif" alt="Burning Chrome">
+                          </a>
+                                                                 
+                          </div>
+               		</div>
+
+                                  
+               </div>
+				
+				<h2 class="subhead">Book Club</h2>
+				<div class="bk-carousel-wrap">
+                <div class="bk-carousel">
+                   <div class="bk-carousel-back" style="display: block;"><img src="images/arrow_left.png" width="80" height="80"></div>
+                   <div class="bk-carousel-forward" style="display: block;"><img src="images/arrow_right.png" width="80" height="80"></div>
+
+                   <div class="bk-carousel-items">
+                                             
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9781414388267&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9781414388267">
+                              <img src="https://booksite-app.appspot.com/coverart/6300/9781414388267.gif" alt="The Story Keeper">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9780312577223&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9780312577223">
+                              <img src="https://booksite-app.appspot.com/coverart/6334/9780312577223.jpg" alt="The Nightingale">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9781468301168&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9781468301168">
+                              <img src="https://booksite-app.appspot.com/coverart/6083/9781468301168.jpg" alt="The Island of Second Sight: From the Applied Recollections of Vigoleis">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9781616201326&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9781616201326">
+                              <img src="https://booksite-app.appspot.com/coverart/5897/9781616201326.jpg" alt="The Art Forger">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9780307593924&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9780307593924">
+                              <img src="https://booksite-images.s3.amazonaws.com/img/ing_img/1002/9780307593924.gif" alt="My Name Is Red">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9781416586296&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9781416586296">
+                              <img src="https://booksite-app.appspot.com/coverart/7137/9781416586296.gif" alt="Half Broke Horses: A True-Life Novel">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9781501137488&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9781501137488">
+                              <img src="https://booksite-app.appspot.com/coverart/5626/9781501137471.jpg" alt="The Rules of Magic">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9781609453916&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9781609453916">
+                              <img src="https://booksite-app.appspot.com/coverart/5462/9781609453916.jpg" alt="The Revolution of the Moon">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9780399562334&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9780399562334">
+                              <img src="https://booksite-app.appspot.com/coverart/7369/9780399562334.jpg" alt="The Whale: A Love Story">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9781473606630&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9781473606630">
+                              <img src="https://booksite-app.appspot.com/coverart/5626/9781473606630.jpg" alt="The Vorrh">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9781476740416&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9781476740416">
+                              <img src="https://booksite-app.appspot.com/coverart/6300/9781476740416.jpg" alt="Amherst">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9781101971635&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9781101971635">
+                              <img src="https://booksite-app.appspot.com/coverart/7560/9781101971635.jpg" alt="El Amante Japones: Una Novela">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9781558619043&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9781558619043">
+                              <img src="https://booksite-app.appspot.com/coverart/7625/9781558619043.gif" alt="The Cosmopolitans">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9780062336057&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9780062336057">
+                              <img src="https://booksite-app.appspot.com/coverart/5626/9780062336057.jpg" alt="Girl Runner">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9780804172653&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9780804172653">
+                              <img src="https://booksite-app.appspot.com/coverart/6334/9780804172653.jpg" alt="The Telling">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9788401343278&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9788401343278">
+                              <img src="https://booksite-app.appspot.com/coverart/7560/9788401343278.gif" alt="Mujer del Diplomatico">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9780062291899&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9780062291899">
+                              <img src="https://booksite-app.appspot.com/coverart/7560/9780062291899.gif" alt="One Night in Winter">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9781609452735&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9781609452735">
+                              <img src="https://booksite-app.appspot.com/coverart/7625/9781609452735.jpg" alt="The Red Collar">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9781451636383&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9781451636383">
+                              <img src="https://booksite-app.appspot.com/coverart/6334/9781451636383.jpg" alt="No Country">
+                          </a>
+                                                <a href="http://library.booksite.com/5626/showdetail/?isbn=9781593766054&amp;list=NLBFH&amp;cnlcode=NLBFH&amp;opacoption=&amp;skin=" data-isbn="9781593766054" target="_blank">
+                              <img src="https://booksite-app.appspot.com/coverart/6328/9781593766054.gif" alt="Goddess of Buttercups &amp; Daisies">
+                          </a>
+                                         
+                          </div>
+               		</div>
+
+                                  
+               </div>
+ 
+<script type="text/javascript" src="tinyfader/bk-carousel.js"></script>
+        </div>             
+		</div>
+		
+		<div class="footer">
+
+			<div class="footer_left">
+			<div class="quicklinks">
+			<h2 class="qlinks"> Quick Links</h2>
+				<ul>
+					<li><a href="#">Libraries & Hours </a></li>
+					<li><a href="#">Employment</a></li>
+					<li><a href="#">ADA Services</a></li>
+					<li><a href="#">Ask a Librarian</a></li>
+					<li><a href="#">Help</a></li>
+				</ul>
+			</div>
+			</div>		
+		<div class="footer_right">
+			<div class="addresses">
+			<h2 class="libnames"> Las Vegas Library </h2>
+				<p class="hours">Hours: Mon-Thurs: 10am-8pm </p>
+				<p class="hours">Fri-Sun:10am-8pm</p>
+			<h2 class="libnames"> Clark County Library </h2>
+				<p class="hours"> Hours: Mon-Thurs: 10am-8pm</p>
+				<p class="hours">Fri-Sun:10am-7pm</p>
+			</div>
+			<div class="contact">
+				<p> Phone: 702-507-3500</p>
+				<p> Email:info@lvccld.org</p>
+				<p> 833 N Las Vegas Blvd</p>
+				<p> Las Vegas, NV 89101</p>
+				<div class="socialmedia">
+					<a href="#"><img class="icon" src="images/fblogo.png"  width="30" height="30"/></a>
+					<a href="#"><img class="icon" src="images/instalogo.png" width="30" height="30" /></a>
+					<a href="#"><img class="icon" src="images/twitlogo.png"  width="30" height="30"/></a>
+				</div>
+			</div>
+		</div>
+		</div>
+	
+	</div>
+</body>
+</html>

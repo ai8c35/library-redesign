@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+
+.pagination {float:left; list-style:none; height:23px; margin:0px 0 0 0px; display:none}
+.pagination li {float:left; cursor:pointer; height:12px; width:12px; background:#666; border-radius:6px; margin-right:4px}
+.pagination li:hover {background:#66FF33; color:#66FF33;}
+li.current {background:#66FF33}
+
+
+
+#slides{position:relative; width:960px; height:360px; list-style:none; overflow:auto;}
+
+#slides li{width:960px; height:360px;}
+
+.fader-slide{opacity:0; position:absolute;}
+.fader-fade {opacity:1; -webkit-transition:opacity .5s; -moz-transition:opacity .5s; transition:opacity .5s;}
+
